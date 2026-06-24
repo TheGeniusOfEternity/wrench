@@ -3,6 +3,7 @@ name: wrench CI
 on:
   pull_request:
   push:
+  workflow_dispatch:
 
 jobs:
   haskell-formatting:
